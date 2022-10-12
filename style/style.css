@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #83C4D8;
+}
+
+#h1slogan {
+    position: absolute;
+    top: 15%;
+    left:20%;
+    font-size: xx-small;
+}
+
+#slogan {
+    margin-top: 35px;
+    box-sizing: border-box;
+
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
+.gallery_product .title{
+  color:#fff;
+  margin: 0;
+  position:relative;
+  bottom:50px;
+  left:10px;
+}
+.gallery_product .title small{
+  display:block;
+}
