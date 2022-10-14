@@ -2,49 +2,51 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
 
 }
+
 .nav-link active {
     font-family: Arial, Helvetica, sans-serif;
-   
+
 }
-<<<<<<< HEAD
 
 #navbarText {
     justify-content: space-around;
 }
 
 .container-geral {
-=======
-.nav-link active {
-    font-family: Arial, Helvetica, sans-serif;
-}
-body {
->>>>>>> a154aef083ec333a02d2d7825c11c5f9f71f2351
     background-color: #83C4D8;
 }
 
 .img-logo {
-    width: 5vw; 
+    width: 5vw;
     height: 8vh;
 }
 
 #slogan-bg {
     position: relative;
-    background-image: linear-gradient(rgba(192, 192, 192, 0.5), rgba(207, 207, 207, 0.5),rgba(221, 221, 221, 0.5)100%), url(../img/slogan.png);
+    background-image: linear-gradient(rgba(192, 192, 192, 0.5), rgba(207, 207, 207, 0.5), rgba(221, 221, 221, 0.5)100%), url(../img/slogan.png);
     background-size: cover;
     width: 100%;
     height: 60vh;
 }
 
+.container-slogan {
+    display: flex;
+    width: auto;
+    justify-content: flex-end;
+    height: inherit;
+}
+
 
 #h1slogan {
-    position: relative;
-    top: 25vh;
-    left: 70vw;
-    font-size: 4vh;
-<<<<<<< HEAD
+    display: flex;
+    font-size: 3vh;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    margin: auto;
 }
 
 .yellow {
@@ -53,12 +55,14 @@ body {
     background-color: #FBCB76;
     margin: auto;
 }
+
 #plataforma {
     display: flex;
     justify-content: flex-end;
 }
+
 .titulo-plataforma {
-   
+
     margin-top: 5vh;
     background-color: #EF815C;
     height: 3vh;
@@ -74,8 +78,8 @@ body {
 }
 
 .img-plataforma {
-    height: 20vw; 
-    width: 50vh; 
+    height: 20vw;
+    width: 50vh;
     margin-top: 1vh;
     margin-left: 2vw;
 }
@@ -96,6 +100,7 @@ body {
     width: 43vw;
     height: 30vh;
 }
+
 .titulo-container-plataforma {
     font-size: 2vh;
     text-align: center;
@@ -103,7 +108,7 @@ body {
 }
 
 .texto-container-plataforma {
-    text-align: center; 
+    text-align: center;
 }
 
 .container-titulo-servicos {
@@ -127,65 +132,12 @@ body {
     margin: auto;
     width: 60vw;
     height: 40vh;
-    margin-top: 8vh;  
+    margin-top: 8vh;
     padding: 8vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
-=======
-}
 
-.yellow {
-    height: 1.5vh;
-    width: 60vw;
-    background-color: #FBCB76;
-    margin: auto;
-}
-#plataforma {
-    display: flex;
-}
-.titulo-plataforma {
-    display: inline;
-    flex-direction: row;
-    justify-content: end;
-    margin-top: 5vh;
-    background-color: #EF815C;
-    height: 2vh;
-    width: 15vw;
-}
-
-.text-plataforma {
-    color: white;
-    text-align: left;
-    font-size: 1.5vh;
-}
-
-
-
-
-
-@media only screen and (max-width: 770px) {
-    .img-logo {
-        width: 25vw;
-        height: 10vh;
-    }
-
-    #slogan-bg {
-        position: relative;
-        background-image: linear-gradient(rgba(192, 192, 192, 0.5), rgba(207, 207, 207, 0.5),rgba(221, 221, 221, 0.5)100%), url(../img/slogan.png);
-        background-size: cover;
-        width: 100%;
-        height: 35vh;
-    }
-
-    #h1slogan {
-        position: relative;
-        top: 15vh;
-        left: 45vw;
-        font-size: 2vh;
-    }
->>>>>>> a154aef083ec333a02d2d7825c11c5f9f71f2351
-    
 }
 
 
@@ -198,13 +150,15 @@ body {
     text-align: center;
     margin-bottom: 8vh;
 }
- .img-icones {
+
+.img-icones {
     position: absolute;
     height: 13vh;
     width: 36vw;
     left: 31vw;
     top: 154vh;
 }
+
 /* .orange {
     height: 1.5vh;
     width: 60vw;
@@ -222,8 +176,9 @@ body {
     width: 30vw;
     text-align: center;
 }
+
 .foto-time {
-    
+
     background-image: url(../img/time.jpg);
     background-size: cover;
     width: 99.1vw;
@@ -234,31 +189,40 @@ body {
     justify-content: center;
     margin: auto;
     margin-left: 10%;
+    width: auto;
 }
+
 .link-lucas {
-    position: relative;
-    bottom: 32vh;
-    left: 18vw;
-    font-size: 2vh;
+    position: absolute;
+    top: 253vh;
+    left: 28vw;
+    font-size: 1.5vh;
+    max-width: inherit;
 }
+
+
 .link-ruan {
-    position: relative;
-    bottom: 8vh;
-    left: 18vw;
-    font-size: 2vh;
+    position: absolute;
+    top: 280vh;
+    left: 28vw;
+    font-size: 1.5vh;
+    max-width: inherit;
 }
+
 .link-fernanda {
-    position: relative;
-    bottom: 11vh;
-    left: 56vw;
-    font-size: 2vh;
+    position: absolute;
+    top: 280vh;
+    left: 67vw;
+    font-size: 1.5vh;
+    max-width: inherit;
 }
 
 .link-ana {
-    position: relative;
-    bottom: 41vh;
-    left: 56vw;
-    font-size: 2vh;
+    position: absolute;
+    top: 253vh;
+    left: 67vw;
+    font-size: 1.5vh;
+    max-width: inherit;
 }
 
 
@@ -272,19 +236,24 @@ body {
 
     #slogan-bg {
         position: relative;
-        background-image: linear-gradient(rgba(192, 192, 192, 0.5), rgba(207, 207, 207, 0.5),rgba(221, 221, 221, 0.5)100%), url(../img/slogan.png);
+        background-image: linear-gradient(rgba(192, 192, 192, 0.5), rgba(207, 207, 207, 0.5), rgba(221, 221, 221, 0.5)100%), url(../img/slogan.png);
         background-size: cover;
         width: 100%;
         height: 35vh;
     }
 
+    .container-slogan {
+        display: flex;
+        width: auto;
+    }
+    
+    
     #h1slogan {
-        position: relative;
-        top: 15vh;
-        left: 33vw;
-        font-size: 2vh;
+        font-size: 3vh;
         font-weight: bold;
         font-style: italic;
+        text-align: center;
+        margin: auto;
     }
 
     .titulo-plataforma {
@@ -293,139 +262,152 @@ body {
         height: 3vh;
         width: 40vw;
     }
-       
+
     .text-plataforma {
         color: white;
         text-align: left;
         font-size: 2vh;
         margin-left: 2vw;
     }
-    
+
     .img-plataforma {
-        height:100%; 
-        width: 100%; 
+        height: 100%;
+        width: 100%;
         margin: auto;
     }
+
     .plataforma-container {
-        display: block;       
+        display: block;
         margin: auto;
         margin-bottom: 0;
-        
+
     }
+
     .text-container-plataforma {
         background-color: #FFFFFF;
         position: relative;
-        left: 0; 
+        left: 0;
         top: 0;
         width: 100%;
         height: 27vh;
-        
+
     }
+
     .titulo-container-plataforma {
         font-size: 2vh;
         text-align: center;
         font-weight: bold;
         margin-top: 0;
     }
-    
-    .texto-container-plataforma{
+
+    .texto-container-plataforma {
         text-align: center;
-        font-size: 1.5vh; 
+        font-size: 1.5vh;
         align-items: center;
     }
-    
-    
-.texto-container-plataforma {
-    text-align: center; 
-}
-
-.container-titulo-servicos {
-    background-color: #2B335A;
-    position: absolute;
-    height: 3vh;
-    width: 50vw;
-    padding: 2;
-    margin-top: 2vh;
-}
-
-.titulo1-servicos {
-    color: white;
-    text-align: left;
-    font-size: 2vh;
-    margin-left: 2vw;
-}
-
-.text-servicos {
-    background-color: #FBCB76;
-    margin: auto;
-    width: auto;
-    height: 60vh;
-    margin-top: 8vh;  
-    padding: 8vh;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin-bottom: 8vh;
-}
 
 
-.p-text-servicos {
-    display: flex;
-    color: white;
-    text-shadow: grey 1px 1px 2px;
-    font-size: 1.5vh;
-    justify-content: center;
-    text-align: center;
-}
-.img-icones {
-    position: absolute;
-    width: 85vw;
-    left: 7vw;
-    top: 177vh;
-    height: 8vh;
-}
+    .texto-container-plataforma {
+        text-align: center;
+    }
 
-.foto-time {
-    width: 99.1vw;
-    height: 20vh;
-}
-.int-1 {
-    justify-content: center;
-    margin: auto;
-    width: 80vw;
-    height: 25vh;
-}
-.int-2 {
-    justify-content: center;
-    margin: auto;
-    width: 80vw;
-    height: 25vh;
-}
-.link-lucas {
-    position: relative;
-    bottom: 41vh;
-    left: 38vw;
-    font-size: 1.5vh;
-}
-.link-ruan {
-    position: relative;
-    bottom: 30.4vh;
-    left: 38vw;
-    font-size: 1.5vh;
-}
-.link-fernanda {
-    position: relative;
-    bottom: 7.6vh;
-    left: 38vw;
-    font-size: 1.5vh;
-}
+    .container-titulo-servicos {
+        background-color: #2B335A;
+        position: absolute;
+        height: 3vh;
+        width: 50vw;
+        padding: 2;
+        margin-top: 2vh;
+    }
 
-.link-ana {
-    position: relative;
-    bottom: 22.8vh;
-    left: 38vw;
-    font-size: 1.5vh;
-}
+    .titulo1-servicos {
+        color: white;
+        text-align: left;
+        font-size: 2vh;
+        margin-left: 2vw;
+    }
 
-    
+    .text-servicos {
+        background-color: #FBCB76;
+        margin: auto;
+        width: auto;
+        height: 60vh;
+        margin-top: 8vh;
+        padding: 8vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 8vh;
+    }
+
+
+    .p-text-servicos {
+        display: flex;
+        color: white;
+        text-shadow: grey 1px 1px 2px;
+        font-size: 1.5vh;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .img-icones {
+        position: absolute;
+        width: 85vw;
+        left: 7vw;
+        top: 177vh;
+        height: 8vh;
+    }
+
+    .foto-time {
+        width: 99.1vw;
+        height: 20vh;
+    }
+
+    .int-1 {
+        justify-content: center;
+        margin: auto;
+        width: 80vw;
+        height: 25vh;
+    }
+
+    .int-2 {
+        justify-content: center;
+        margin: auto;
+        width: 80vw;
+        height: 25vh;
+    }
+
+    .link-lucas {
+        position: absolute;
+        top: 235vh;
+        left: 46vw;
+        font-size: 1.5vh;
+        max-width: inherit;
+    }
+
+    .link-ruan {
+        position: absolute;
+        top: 248vh;
+        left: 46vw;
+        font-size: 1.5vh;
+        max-width: inherit;
+    }
+
+    .link-fernanda {
+        position: absolute;
+        top: 273vh;
+        left: 46vw;
+        font-size: 1.5vh;
+        max-width: inherit;
+    }
+
+    .link-ana {
+        position: absolute;
+        top: 260vh;
+        left: 46vw;
+        font-size: 1.5vh;
+        max-width: inherit;
+    }
+
+
 }
