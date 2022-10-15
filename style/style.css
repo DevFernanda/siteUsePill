@@ -137,26 +137,22 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-
 }
 
 
 .p-text-servicos {
-    display: flex;
     color: white;
     text-shadow: grey 1px 1px 2px;
     font-size: 1.8vh;
     justify-content: center;
     text-align: center;
-    margin-bottom: 8vh;
+    margin-top: 4vh;
 }
 
 .img-icones {
-    position: absolute;
+    margin: auto;
     height: 13vh;
     width: 36vw;
-    left: 31vw;
-    top: 154vh;
 }
 
 /* .orange {
@@ -186,44 +182,27 @@
 }
 
 .foto-integrantes {
-    justify-content: center;
     margin: auto;
-    margin-left: 10%;
-    width: auto;
+    align-items: center;
+    justify-content: center;
 }
 
-.link-lucas {
-    position: absolute;
-    top: 253vh;
-    left: 28vw;
-    font-size: 1.5vh;
-    max-width: inherit;
+.cards {
+   text-align: center;
+   margin-top: 2vh;
+   font-style: italic;
+   font-size: 2.5vh;
+}
+
+.links {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
-.link-ruan {
-    position: absolute;
-    top: 280vh;
-    left: 28vw;
-    font-size: 1.5vh;
-    max-width: inherit;
-}
 
-.link-fernanda {
-    position: absolute;
-    top: 280vh;
-    left: 67vw;
-    font-size: 1.5vh;
-    max-width: inherit;
-}
-
-.link-ana {
-    position: absolute;
-    top: 253vh;
-    left: 67vw;
-    font-size: 1.5vh;
-    max-width: inherit;
-}
 
 
 
@@ -331,7 +310,7 @@
         background-color: #FBCB76;
         margin: auto;
         width: auto;
-        height: 60vh;
+        height: 50vh;
         margin-top: 8vh;
         padding: 8vh;
         display: flex;
@@ -342,7 +321,7 @@
 
 
     .p-text-servicos {
-        display: flex;
+      
         color: white;
         text-shadow: grey 1px 1px 2px;
         font-size: 1.5vh;
@@ -351,63 +330,25 @@
     }
 
     .img-icones {
-        position: absolute;
-        width: 85vw;
-        left: 7vw;
-        top: 177vh;
-        height: 8vh;
+        
+        width:75vw;
+        height: 10vh;
+       
     }
 
     .foto-time {
-        width: 99.1vw;
+        width: 100%;
         height: 20vh;
     }
 
-    .int-1 {
-        justify-content: center;
-        margin: auto;
-        width: 80vw;
-        height: 25vh;
-    }
-
-    .int-2 {
-        justify-content: center;
-        margin: auto;
-        width: 80vw;
-        height: 25vh;
-    }
-
-    .link-lucas {
-        position: absolute;
-        top: 235vh;
-        left: 46vw;
-        font-size: 1.5vh;
-        max-width: inherit;
-    }
-
-    .link-ruan {
-        position: absolute;
-        top: 248vh;
-        left: 46vw;
-        font-size: 1.5vh;
-        max-width: inherit;
-    }
-
-    .link-fernanda {
-        position: absolute;
-        top: 273vh;
-        left: 46vw;
-        font-size: 1.5vh;
-        max-width: inherit;
-    }
-
-    .link-ana {
-        position: absolute;
-        top: 260vh;
-        left: 46vw;
-        font-size: 1.5vh;
-        max-width: inherit;
-    }
-
+   .foto-integrantes a img {
+        width: fit-content;
+        max-width: 90vw
+   }
+   .cards {
+       text-align: center;
+       margin-top: 2vh;
+       font-style: italic;
+   }
 
 }
